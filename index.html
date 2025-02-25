@@ -9,288 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
-   <style>
-    .navbar_frame {
-    position: relative;
-    width: 100%;
-    height: 145px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background: #443297;
-}
-
-.container{
-    position: relative;
-    padding: 20px 0px 14px; 
-    width: 1320px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.navbar_top {
-    width: 100%;
-    height: 50px;
-
-    display: flex;
-    flex-direction: row;
-    /* background-color:red;
- */
-}
-
-.navbar_top > a img {
-    margin-right: 76px;
-    width:117px;
-    height: 36px;
-}
-
-.navbar_top .nav_search_frame {
-    width: 650px;
-    height: 50px;
-
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
-    background: #fff;
-    border-radius: 6px;
-}
-.navbar_top .search_box {
-    padding: 10px 17px;
-    width: auto;
-    height: auto;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.search_box .category_list {
-width: 166px;
-height: 30px;
-display: flex;
-flex-direction: row;
-align-items: center;
-
-border-right: 1px solid #d6d6d6;
-}
-
-.category_list select {
-width: 140px;
-height: 30px;
-
-border:none;
-outline: none;
-
-font-family: 'Jost';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 22px;
-color: #841e42;
-
-}
-
-.search_box input {
-    margin-left:12px;
-    width: 387px;
-    height: 22px;
-
-    border:none;
-    outline:none;
-
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
-    color: #626974;
-
-}
-
-.nav_search_frame .search_icon_box {
-    width:50px;
-    height:50px;
-
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    background: #f5c34b;
-    border-radius: 0px 6px 6px 0px;
-}
-.search_icon_box img {
-    width: 20px;
-    height: 20px;
-}
-.navbar_top .nav_top_menu {
-    margin-left: 59px;
-    width:416px;
-    height:50px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-.nav_top_menu .top_menu_box {
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    cursor: pointer;
-}
-.top_menu_box .box_icon_box {
-    position:relative;
-    margin-right: 16px;
-    width: 54px;
-    height: 50px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgba(255,255,255,0.1); 
-    border-radius: 6px;
-
-}
-.box_icon_box img {
-    width:22px;
-    height: 22px;
-   
-}
-.top_menu_box .box_info_box {
-    display: flex;
-    flex-direction: column;
-}
-
-.box_info_box span {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 22px;
-    color: #ffffff;
-
-}
-.box_info_box strong {
-
-font-family: 'Jost';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 22px;
-color: #ffffff;
-}
-
-.box_icon_box .basket_count {
-    position: absolute;
-
-    width:15px;
-    height:15px;
-    top:-2px;
-    right:-3px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: #f5c34b;
-    border-radius: 50%;
-
-    font-family:'Jost';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 8px;
-    line-height: 10px;
-
-    color: #0b1e40;
-}
-.navbar_bott {
-    margin-top: 20px;
-    width: 100%;
-    height: 40px;
-
-    display: flex;
-    flex-direction: row;
-
-    border-top: 1px solid #5746a1; 
-    
-}
-.navbar_bott .navbar_bott_menu_box {
-    margin-top:10px;
-    width: auto;
-    height: auto;
-
-    display: flex;
-    flex-direction: row;
-    /* background-color: blue; */
-}
-        .navbar_bott_menu_box .browse_box {
-        width: 185px;
-        height: 30px;
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        border-right: 1px solid #5746a1;
-
-    }
-    .browse_box img {
-        margin-right: 10px;
-        width: 19.57px;
-        height: 18.12px;
-
-    }
-
-    .browse_box span {
-        font-family: "Jost";
-        font-style: normal;
-        font-weight: 500px;
-        font-size:  16px;
-        line-height:28px;
-        color: #ffffff;
-    }
-
-.navbar_bott_menu_box .navbar_route_menu { 
-    margin-left:12px;
-    width:690px;
-    display: flex;
-    flex-direction: row;
-
-}
-.navbar_route_menu .router_menu {
-    margin-left: 20px;
-    width: auto;
-    height: 41px;
-
-    display: flex;
-}
-.route_menu a {
-    font-family: "Jost";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 28px;
-    color: #ffffff;
-}
-
-.router_menu a.active {
-    color: #f5c34b;
-}
-
-.navbar_bott_menu_box .sorting_menu {
-    display: flex;
-    flex-direction: row;
-}
-
-.sorting_menu span 
-{    margin-right: 20px;
-    font-family: "Jost";
-    font-style: normal;
-    font-weight:500;
-    font-size: 16px;
-    line-height:28px;
-    color: #ffffff;
-}
-   </style>
+  
 </head>
 <body>
     <div class="navbar_frame">
@@ -310,14 +29,14 @@ color: #ffffff;
                             <input type="search" placeholder="Search Products..."/>
                     </div>
                     <div class="search_icon_box">
-                        <img src="public/images/search.svg"/>
+                        <img src="public/images/icons/search.svg"/>
                     </div>
                 </div>
                 <div class="nav_top_menu">
                     <a href="">
                         <div class="top_menu_box">
                 <div class="box_icon_box">
-                    <img src="public/images/heart.svg" alt=""/>
+                    <img src="public/images/icons/heart.svg" alt=""/>
                 </div>
                 <div class="box_info_box">
                     <span>Wishlist</span>
@@ -328,7 +47,7 @@ color: #ffffff;
                 <a href="">
                         <div class="top_menu_box">
                 <div class="box_icon_box">
-                    <img src="public/images/user.svg" alt=""/>
+                    <img src="public/images/icons/profile.svg" alt=""/>
                 </div>
                 <div class="box_info_box">
                     <span>Sign In</span>
@@ -340,7 +59,7 @@ color: #ffffff;
                     <div class="top_menu_box">
             <div class="box_icon_box">
                 <div class="basket_count">2</div>
-                <img src="public/images/cart.svg" alt=""/>
+                <img src="public/images/icons/shopping-cart.svg" alt=""/>
             </div>
             <div class="box_info_box">
                 <span>$200</span>
@@ -355,7 +74,7 @@ color: #ffffff;
             <div class="navbar_bott">
                     <div class="navbar_bott_menu_box">
                     <div class="browse_box">
-                        <img src="public/images/browse.svg" alt=""/>
+                        <img src="public/images/icons/browse.svg" alt=""/>
                         <span>Browse Categories</span>
                         </div>
                     <div class="navbar_route_menu">
@@ -391,6 +110,47 @@ color: #ffffff;
 
 
         
+    </div>
+  </div>
+  <div class="home_page">
+    <div class="header_frame">
+        <div class="container">
+            <div class="header_left">
+                <div class="header_content">
+                 <div>
+                    Special Offer
+                 </div>
+                 <span>Immersive Entertainment</span>
+                 <p>Discover our new items. Up to 25% Off !</p>
+                 <a href="">Shop Now</a>
+                 <img src="public/images/icons/header_img.svg" alt="">
+                </div>
+            </div>
+            <div class="header_right">
+                <div class="header_box">
+                    <div class="box_left">
+                        <span>Starting from $899</span>
+                        <p>Health Care Monitor</p>
+                        <a href="">Shop Now</a>
+                        <div class="hover_border"></div>
+                    </div>
+                    <div class="box_right">
+                        <img src="public/images/icons/smart_watch.svg">
+                    </div>
+                </div>
+                <div class="header_box">
+                    <div class="box_left">
+                        <span>Starting from $899</span>
+                        <p>Health Care Monitor</p>
+                        <a href="">Shop Now</a>
+                        <div class="hover_border"></div>
+                    </div>
+                    <div class="box_right">
+                        <img src="public/images/icons/smart_watch.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   </div>
 </body>
