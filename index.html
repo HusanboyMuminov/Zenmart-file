@@ -1,515 +1,718 @@
-<!DOCTYPE html>
+                                    <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zenmart</title>
-    <link rel="stylesheet" href="public/css/command.css">
-    <link rel="stylesheet" href="public/css/home.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
- 
-</head>
-<body>
-     <div class="navbar_frame">
-        <div class="container">
-            <div class="navbar_top">
-                <a href="">
-                    <img src="public/images/logo.png" alt=""/>
-                </a>
-                <div class="nav_search_frame">
-                    <div class="search_box">
-                        <div class="category_list">
-                            <select>
-                                <option value="" selected>All Categories</option>
-                                <option value="">Computer</option>
-                            </select>
-                            </div>
-                            <input type="search" placeholder="Search Products..."/>
-                    </div>
-                    <div class="search_icon_box">
-                        <img src="public/images/icons/search.svg"/>
-                    </div>
-                </div>
-                <div class="nav_top_menu">
-                    <a href="">
-                        <div class="top_menu_box">
-                <div class="box_icon_box">
-                    <img src="public/images/icons/heart.svg" alt=""/>
-                </div>
-                <div class="box_info_box">
-                    <span>Wishlist</span>
-                    <strong>My items</strong>
-                    </div>
-                    </div>
-                </a>
-                <a href="">
-                        <div class="top_menu_box">
-                <div class="box_icon_box">
-                    <img src="public/images/icons/profile.svg" alt=""/>
-                </div>
-                <div class="box_info_box">
-                    <span>Sign In</span>
-                    <strong>Account</strong>
-                    </div>
-                    </div>
-                </a>        
-                 <a href="">
-                    <div class="top_menu_box">
-            <div class="box_icon_box">
-                <div class="basket_count">2</div>
-                <img src="public/images/icons/shopping-cart.svg" alt=""/>
+    <link rel="stylesheet" href="./public/css/command.css" />
+    <link rel="stylesheet" href="./public/css/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar_frame">
+      <div class="container">
+        <div class="navbar_top">
+          <a href="#">
+            <img src="./public/images/icons/logo.png" alt="" />
+          </a>
+          <div class="nav_search_frame">
+            <div class="search_box">
+              <div class="category_list">
+                <select>
+                  <option value="" selected>All Categories</option>
+                  <option value="">Computer</option>
+                </select>
+              </div>
+
+              <input type="text" placeholder="Search  Products..." />
             </div>
-            <div class="box_info_box">
-                <span>$200</span>
-                <strong>Total</strong>
+            <div class="search_icon_box">
+              <img src="./public/images/icons/search.svg" alt="" />
+            </div>
+          </div>
+          <div class="nav_top_menu">
+            <a href="#">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <img src="./public/images/icons/heart.svg" alt="" />
                 </div>
+                <div class="box_info_box">
+                  <span>Wishlist</span>
+                  <strong>My items</strong>
                 </div>
+              </div>
             </a>
-                   
+            <a href="#">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <img src="./public/images/icons/vector.svg" alt="" />
                 </div>
-            </div>
-        
-            <div class="navbar_bott">
-                    <div class="navbar_bott_menu_box">
-                    <div class="browse_box">
-                        <img src="public/images/icons/browse.svg" alt=""/>
-                        <span>Browse Categories</span>
-                        </div>
-                    <div class="navbar_route_menu">
-                        <div class="router_menu">
-                            <a href="" class="active">Home</a>
-                        </div>
-                         <div class="router_menu">
-                            <a href="">Shop</a>
-                        </div> 
-                        <div class="router_menu">
-                            <a href="">Orders</a>
-                        </div>
-                        <div class="router_menu">
-                            <a href="">About</a>
-                        </div>
-                        <div class="router_menu">
-                            <a href="">Contact</a>
-                        </div>
-                    </div>
-                    <div class="sorting_menu">
-                        <span>Deal of the day</span>
-                        <span>Hot Deals</span>
-                        <span>Best Sellers</span>
-                        <span>New Arrivals</span>
-                    </div>
+                <div class="box_info_box">
+                  <span>Sign in</span>
+                  <strong>Account</strong>
                 </div>
-         </div>
-
-         </div>
-
-
-
-
-
-</div>
-  <div class="home_page">
-    <div class="header_frame">
-        <div class="container">
-            <div class="header_left">
-                <div class="header_content">
-                 <div>
-                    Special Offer
-                 </div>
-                 <span>Immersive Entertainment</span>
-                 <p>Discover our new items. Up to 25% Off !</p>
-                 <a href="">Shop Now</a>
-                 <img src="public/images/icons/header_img.svg" alt="">
+              </div>
+            </a>
+            <a href="#">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <div class="basket_count">2</div>
+                  <img src="./public/images/icons/shopping-cart.svg" alt="" />
                 </div>
-            </div>
-            <div class="header_right">
-                <div class="header_box">
-                    <div class="box_left">
-                        <span>Starting from $899</span>
-                        <p>Health Care Monitor</p>
-                        <a href="">Shop Now</a>
-                        <div class="hover_border"></div>
-                    </div>
-                    <div class="box_right">
-                        <img src="public/images/icons/smart_watch.svg">
-                    </div>
+                <div class="box_info_box">
+                  <span>$200.99</span>
+                  <strong>My items</strong>
                 </div>
-                <div class="header_box">
-                    <div class="box_left">
-                        <span>Starting from $899</span>
-                        <p>Health Care Monitor</p>
-                        <a href="">Shop Now</a>
-                        <div class="hover_border"></div>
-                    </div>
-                    <div class="box_right">
-                        <img src="public/images/icons/smart_watch.svg">
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>
-    </div>
-    <div class="service_frame">
-        <div class="container">
-            <div class="service_box">
-                <img src="public/images/icons/track.svg" alt="">
-                <div class="service_content">
-                    <span>Free Shipping</span>
-                    <p>Free shipping for orders over $200</p>
-                </div>
-            </div>
-            <div class="service_box">
-                <img src="public/images/icons/garantue.svg" alt="">
-                <div class="service_content">
-                    <span>Money Guarantee</span>
-                    <p>Whithin 30 days for an exchange.</p>
-                </div>
-            </div>
-            <div class="service_box">
-                <img src="public/images/icons/headphones.svg" alt="">
-                <div class="service_content">
-                    <span>Online Support</span>
-                    <p>24hours a day, 7 days a week</p>
-                </div>
-            </div>
-            <div class="service_box">
-                <img src="public/images/icons/credit-card.svg" alt="">
-                <div class="service_content">
-                    <span> Flexible Payment</span>
-                    <p>Pay with Multiple Credit Cards</p>
-                </div>
-            </div>
+              </div>
+            </a>
+          </div>
         </div>
-    </div>
-    <div class="shop_category_frame">
-<div class="container">
-    <div class="category_top">
-        <span>Shop Category</span>
-        <a href="">View All Categories</a>
-    </div>
-    <div class="category_wrapper">
-        <div class="category_box">
-            <div class="category_img_box">
-                <img src="public/images/category/tv.png" alt="">
+        <div class="navbar_bott">
+          <div class="navbar_bott_menu_box">
+            <div class="browse_box">
+              <img src="./public/images/icons/browse.svg" alt="" />
+              <span>Browse Categories</span>
             </div>
-            <span>TVs, Home Theatre, and Accessories</span>
-        </div>
-        <div class="category_box">
-            <div class="category_img_box">
-                <img src="public/images/category/computer.png" alt="">
+            <div class="navbar_route_menu">
+              <div class="router_menu">
+                <a href="#" class="active">Home</a>
+              </div>
+              <div class="router_menu">
+                <a href="#">Shop</a>
+              </div>
+              <div class="router_menu">
+                <a href="#">Orders</a>
+              </div>
+              <div class="router_menu">
+                <a href="#">About</a>
+              </div>
+              <div class="router_menu">
+                <a href="#">Contact</a>
+              </div>
             </div>
-            <span>Computer, Tablets, and Accessories</span>
-        </div>
-        <div class="category_box">
-            <div class="category_img_box">
-                <img src="public/images/category/smart.png" alt="">
+            <div class="sorting_menu">
+              <span>Deal of the Day</span>
+              <span>Hoot Deals</span>
+              <span>Best Sellers</span>
+              <span>New Arrivals</span>
             </div>
-            <span>Smart Home</span>
+          </div>
         </div>
-        <div class="category_box">
-            <div class="category_img_box">
-                <img src="public/images/category/headphone.png" alt="">
-            </div>
-            <span>Headphones and portable Speakers</span>
-        </div>
-        <div class="category_box">
-            <div class="category_img_box">
-                <img src="public/images/category/phone.png" alt="">
-            </div>
-            <span>Cell Phones and Accessories</span>
-        </div>
-        <div class="category_box">
-            <div class="category_img_box">
-                <img src="public/images/category/game.png" alt="">
-            </div>
-            <span>Video games, Consoles and Accessories</span>
-        </div>
-
-    </div>
-</div>
-    </div>
-    <div class="selling_product_frame">
-            <div class="container">
-            <div class="category_top">
-                <span>Top Selling Products</span>
-                <a href="">View All</a>
-            </div>
-            <div class="product_wrapper">
-                        <!-- comment -->
-                 <div class="next_prev_box">
-                    <img src="public/images/icons/next.svg" alt="">
-                    </div>
-               
-                <div class="product_boxes">
-                    <div class="product_box">
-                        <a href="">
-                            <div 
-                            class="product_img_box" style="background: url('public/images/products/watch.png'); background-size: cover;">
-                        <div class="hover_box">
-                            <button>Add to Cart</button>
-                        </div>
-                        </div>
-                        </a>
-                        <div class="product_content_box">
-<span class="product_title">Samsung</span>
-           <a href="">
-    <p class="product_desc">
-        Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with </p>
-    
-</a>
-<div class="review_box">
-    <img src="public/images/icons/review.svg">
-    <img src="public/images/icons/review.svg">
-    <img src="public/images/icons/review.svg">
-    <img src="public/images/icons/review.svg">
-    <img src="public/images/icons/review.svg">
-    <span>3,014 reviews</span>
-</div>
-<div class="price_box">
-    <strong>$32</strong>
-    <span>$45</span>
-</div>
-            <div class="product_pagionation_box"></div>
-        </div>
-                </div>
-    <div class="product_box">
-        <a href="">
-            <div 
-            class="product_img_box" style="background: url('public/images/products/phone.png'); background-size: cover;">
-        <div class="hover_box">
-            <button>Add to Cart</button>
-        </div>
-        </div>
-        </a>
-        <div class="product_content_box">
-<span class="product_title">SON</span>
-<a href="">
-<p class="product_desc">Apple iPhone 11 64GB Smartphone Black. </p>
-
-</a>
-<div class="review_box">
-<img src="public/images/icons/review.svg">
-<img src="public/images/icons/review.svg">
-<img src="public/images/icons/review.svg">
-<img src="public/images/icons/review.svg">
-<img src="public/images/icons/review.svg">
-<span>3,014 reviews</span>
-</div>
-<div class="price_box">
-<strong>$32</strong>
-<span>$45</span>
-</div>
-<div class="product_pagionation_box"></div>
-</div>
-                </div>
-                <div class="product_box">
-    <a href="">
-        <div 
-        class="product_img_box" style="background: url('public/images/products/iRobot.png'); background-size: cover;">
-    <div class="hover_box">
-        <button>Add to Cart</button>
-    </div>
-    </div>
-    </a>
-    <div class="product_content_box">
-<span class="product_title">SON</span>
-<a href="">
-<p class="product_desc">i3+ EVO W Empty Robc </p>
-
-</a>
-<div class="review_box">
-<img src="public/images/icons/review.svg">
-<img src="public/images/icons/review.svg">
-<img src="public/images/icons/review.svg">
-<img src="public/images/icons/review.svg">
-<img src="public/images/icons/review.svg">
-<span>3,014 reviews</span>
-</div>
-<div class="price_box">
-<strong>$32</strong>
-<span>$45</span>
-</div>
-<div class="product_pagionation_box"></div>
-</div>
-</div>
-<div class="product_box">
-    <a href="">
-        <div 
-        class="product_img_box" style="background: url('public/images/products/dyson.png'); background-size: cover;">
-    <div class="hover_box">
-        <button>Add to Cart</button>
-    </div>
-    </div>
-    </a>
-    <div class="product_content_box">
-<span class="product_title">EASTSPO</span>
-<a href="">
-<p class="product_desc"> <sup>RT</sup>Dyson V7 Complete Cordless Stick Vacuum - Iron/Blue</p>
-
-</a>
-<div class="review_box">
-<img src="public/images/icons/review.svg">
-<img src="public/images/icons/review.svg">
-<img src="public/images/icons/review.svg">
-<img src="public/images/icons/review.svg">
-<img src="public/images/icons/review.svg">
-<span>3,014 reviews</span>
-</div>
-<div class="price_box">
-<strong>$32</strong>
-<span>$45</span>
-</div>
-<!-- <div class="product_pagionation_box"></div> -->
-</div>
-
-</div>
-  </div>
-  <div class="next_prev_box" style="transform: scaleX(-1);">
-    <img src="public/images/icons/next.svg" alt="">
-    </div>
-    </div>
-    <div class="pagionation_box">
-        <div class="pagination_main">
-            <img src="public/images/icons/arrow-prev_next.svg" alt="">
-            <div class="pagination_dot">
-                <div class="dot">
-                    <div></div>
-                </div>
-                <div class="dot active">
-                    <div></div>
-                </div>
-                <div class="dot">
-                    <div></div>
-                </div>
-                <div class="dot">
-                    <div></div>
-                </div>
-                <div class="dot">
-                    <div></div>
-                </div>
-                <div class="dot">
-                    <div></div>
-                </div>
-                <div class="dot">
-                    <div></div>
-                </div>
-            </div>
-            <img src="public/images/icons/arrow-prev_next.svg" alt="" style="transform: scaleX(-1)">
-        </div>
-    </div>
       </div>
     </div>
-     <div class="adv_frame">
-        Members get free shipping* with no order minimum!*Restrictions apply.Try free 30-day trial
-    </div>
-    <div class="spec_product_frame">
-        <div class="container">
-            <div class="category_top">
-                <span>headphones</span>
-                <a href="">View All</a>
-            </div>
-            <div class="spec_product_wrapper">
-                <div class="big_product_box">
-                    <div class="big_product_content">
-                        <span>Now in moon gray</span>
-                        <p>Beats Studio Buds</p>
-                        <a href="">Shop Now</a>
-                        <div class="hover_border"></div>
-                    </div>
-                    <img src="public/images/products/headphone_big.png" alt="">
-                    </div>
-                    <div>
-                <div class="small_product_wrapper">
-                    <div class="small_product_box">
-                        <div class="small_product_content">
-                            <strong>Over_Ear</strong>
-                            <span>29 items</span>
-                        </div>
-                        <img src="public/images/products/sony_headphone.png" alt="">
-                    </div> <div class="small_product_box">
-                        <div class="small_product_content">
-                            <strong>On_Ear</strong>
-                            <span>29 items</span>
-                        </div>
-                        <img src="public/images/products/on-ear.png" alt="">
-                    </div> <div class="small_product_box">
-                        <div class="small_product_content">
-                            <strong>Sports & Fitness</strong>
-                            <span>29 items</span>
-                        </div>
-                        <img src="public/images/products/fitness_headphone.png" alt="">
-                    </div> <div class="small_product_box">
-                        <div class="small_product_content">
-                            <strong>Bluetooth Headphones</strong>
-                            <span>29 items</span>
-                        </div>
-                        <img src="public/images/products/bluetooth_headphones.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="tv_frame">
-    <div class="container">
-        <div class="category_top">
+    <div class="home_page">
+      <div class="header_frame">
+        <div class="container">
+          <div class="header_left">
+            <div class="header_content">
+              <div>Special Offer</div>
+              <span>Immersive Entertainment</span>
+              <p>Discover our new items. Up to 25% Off !</p>
+              <a href="#">Shop Now</a>
+              <img src="./public/images/icons/header_img.svg" alt="rasm" />
+            </div>
+          </div>
+          <div class="header_right">
+            <div class="header_box">
+              <div class="box_left">
+                <span>Starting from $899</span>
+                <p>Health Care Monitor</p>
+                <a href="#">Show Now</a>
+                <div class="hover_border"></div>
+              </div>
+              <div class="box_right">
+                <img src="public/images/icons/smart_watch.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="header_box">
+              <div class="box_left">
+                <span>Starting from $899.</span>
+                <p>Hanpicked Headphones</p>
+                <a href="#">Show Now</a>
+                <div class="hover_border"></div>
+              </div>
+              <div class="box_right">
+                <img src="public/images/icons/app.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="service_frame">
+        <div class="container">
+          <div class="service_box">
+            <img src="public/images/icons/track.svg" alt="" />
+            <div class="service_content">
+              <span>Free Shipping</span>
+              <p>Free Shipping for orders over $200</p>
+            </div>
+          </div>
+
+          <div class="service_box">
+            <img src="public/images/icons/garantue.svg" alt="" />
+            <div class="service_content">
+              <span>Money Guarantee</span>
+              <p>Within 30 days for an exchange.</p>
+            </div>
+          </div>
+
+          <div class="service_box">
+            <img src="public/images/icons/headphones.svg" alt="" />
+            <div class="service_content">
+              <span>Online Support</span>
+              <p>24 hours a day, 7 days a week</p>
+            </div>
+          </div>
+
+          <div class="service_box">
+            <img src="public/images/icons/credit-card.svg" alt="" />
+            <div class="service_content">
+              <span>Flexible Payment</span>
+              <p>Pay with Multiple Credit Cards</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--        category started     -->
+
+      <div class="shop_category_frame">
+        <div class="container">
+          <div class="category_top">
+            <span>Shop Category</span>
+            <a href="">View All Categories</a>
+          </div>
+          <div class="category_wrapper">
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="public/images/category/tv.png" alt="" />
+              </div>
+              <span>TVs, Home Theatre, and Accessories</span>
+            </div>
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="public/images/category/computer.png" alt="" />
+              </div>
+              <span>Computers, Tablets, and Accessories</span>
+            </div>
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="public/images/category/smart.png" alt="" />
+              </div>
+              <span>Smart Home</span>
+            </div>
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="public/images/category/headphone.png" alt="" />
+              </div>
+              <span>Headphones and Portable Speakers</span>
+            </div>
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="public/images/category/phone.png" alt="" />
+              </div>
+              <span>Cell Phones and Accessories</span>
+            </div>
+            <div class="category_box">
+              <div class="category_img_box">
+                <img src="public/images/category/game.png" alt="" />
+              </div>
+              <span>Video Games, Consoles, and Accessories</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--        category finished-->
+
+      <!--        Selling product frame started-->
+
+      <div class="selling_product_frame">
+        <div class="container">
+          <div class="category_top">
+            <span>Top Selling Products</span>
+            <a href="">View All</a>
+          </div>
+          <div class="product_wrapper">
+            <div class="next_prev_box">
+              <img src="public/images/icons/next.svg" alt="" />
+            </div>
+
+            <div class="product_boxes">
+              <div class="product_box">
+                <a href="#">
+                  <div
+                    class="product_img_box"
+                    style="
+                      background: url('public/images/products/watch.png');
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Samsung</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with
+                    </p>
+                  </a>
+
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+
+                    <span>3.014 reviews</span>
+                  </div>
+
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_box">
+                <a href="#">
+                  <div
+                    class="product_img_box"
+                    style="
+                      background: url('public/images/products/phone.png');
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">iPhone</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Apple iPhone 11 64GB Smartphone - Black.
+                    </p>
+                  </a>
+
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+
+                    <span>3.014 reviews</span>
+                  </div>
+
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_box">
+                <a href="#">
+                  <div
+                    class="product_img_box"
+                    style="
+                      background: url('public/images/products/iRobot.png');
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Samsung</span>
+                  <a href="">
+                    <p class="product_desc">
+                      iRobot Roomba i3+ EVO Wi-Fi Connected Self-Empty Robot.
+                    </p>
+                  </a>
+
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+
+                    <span>3.014 reviews</span>
+                  </div>
+
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="product_box">
+                <a href="#">
+                  <div
+                    class="product_img_box"
+                    style="
+                      background: url('public/images/products/dyson.png');
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product_content_box">
+                  <span class="product_title">Samsung</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Dyson V7 Complete Cordless Stick Vacuum - Iron/Blue
+                    </p>
+                  </a>
+
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+
+                    <span>3.014 reviews</span>
+                  </div>
+
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="next_prev_box" style="transform: scaleX(-1)">
+              <img src="public/images/icons/next.svg" alt="" />
+            </div>
+          </div>
+          <!--        Product pagination box-->
+          <div class="pagination_box">
+            <div class="pagination_main">
+              <img src="public/images/icons/arrow-prev_next.svg" alt="" />
+
+              <div class="pagination_dot">
+                <div class="dot">
+                  <div></div>
+                </div>
+                <div class="dot">
+                  <div></div>
+                </div>
+                <div class="dot">
+                  <div></div>
+                </div>
+                <div class="dot">
+                  <div></div>
+                </div>
+                <div class="dot active">
+                  <div></div>
+                </div>
+                <div class="dot">
+                  <div></div>
+                </div>
+              </div>
+
+              <img
+                src="public/images/icons/arrow-prev_next.svg"
+                alt="rasm"
+                style="transform: scaleX(-1)"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--        advFrame-->
+
+      <div class="adv_frame">
+        Members get free shipping* with no order minimum!*Restrictions apply.Try
+        free 30-day trial
+      </div>
+
+      <div class="spec_product_frame">
+        <div class="container">
+          <div class="category_top">
+            <span>Headphones</span>
+            <a href="">View All</a>
+          </div>
+
+          <div class="spec_product_wrapper">
+            <div class="big_product_box">
+              <div class="big_product_content">
+                <span>Now in moon gray</span>
+                <p>Beats Studio Buds</p>
+                <a href="">Shop Now</a>
+                <div class="hover_border"></div>
+              </div>
+              <img src="public/images/products/headphone_big.png" alt="" />
+            </div>
+            <div class="small_product_wrapper">
+              <div class="small_product_box">
+                <div class="small_product_content">
+                  <strong>Over-Ear</strong>
+                  <span>29 items</span>
+                </div>
+                <img
+                  class="top_img"
+                  src="public/images/products/sony_headphone.png"
+                  alt=""
+                />
+              </div>
+              <div class="small_product_box">
+                <div class="small_product_content">
+                  <strong>On-Ear</strong>
+                  <span>29 items</span>
+                </div>
+                <img
+                  class="top_img"
+                  src="public/images/products/on-ear.png"
+                  alt=""
+                />
+              </div>
+              <div class="small_product_box">
+                <div class="small_product_content">
+                  <strong>Sports & Fitness</strong>
+                  <span>29 items</span>
+                </div>
+                <img
+                  src="public/images/products/fitness_headphone.png"
+                  alt=""
+                />
+              </div>
+              <div class="small_product_box">
+                <div class="small_product_content">
+                  <strong>Bluetooth Headphones</strong>
+                  <span>29 items</span>
+                </div>
+                <img
+                  src="public/images/products/bluetooth_headphones.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="tv_frame">
+        <div class="container">
+          <div class="category_top">
             <span>TV & Home Theatre</span>
             <div>
-            <a href="">Televisions</a>
-            <a href="">Digital Cable</a> 
+            <a href="">Televisions</a> 
+            <a href="">Digital Cable</a>
             <a href="">Media Streamers</a>
             <a href="">Remote Controls</a>
             </div>
-        </div>
-        <div class="tv_wrapper">
+          </div>
+          <div class="tv_wrapper">
             <div class="next_prev_box">
-                <img src="public/images/icons/next.svg" alt="">
+              <img src="public/images/icons/next.svg" alt="" />
+            </div>
+            <div class="tv_product_boxes">
+              <div class="tv_product_box">
+                <div class="product-img">
+                  <a href="">
+                    <img src="public/images/products/samsung_tv.png" alt="" />
+                  </a>
                 </div>
-                <div class="tv_product_boxes">
-                    <div class="tv_product_box">
-                        <div class="product img">
-                            <a href=""></a>
-                        </div>
-                    </div>
-                    <div class="product_content_box">
-                        <span class="product_title">son</span>
-                        <a href="">
-                        <p class="product_desc">i3+ EVO W Empty Robc </p>
-                        
-                        </a>
-                        <div class="review_box">
-                        <img src="public/images/icons/review.svg">
-                        <img src="public/images/icons/review.svg">
-                        <img src="public/images/icons/review.svg">
-                        <img src="public/images/icons/review.svg">
-                        <img src="public/images/icons/review.svg">
-                        <span>3,014 reviews</span>
-                        </div>
-                        <div class="price_box">
-                        <strong>$32</strong>
-                        <span>$45</span>
-                        </div>
-                        <div class="product_pagionation_box"></div>
-                        </div>
-                        <div class="product_content_box">
-                            <span class="product_title">Samsung</span>
-                            <a href="">
-                                <p class="product_desc"></p>
-                            </a>
-                        </div>
-                    </div>
+                <div class="product_content_box">
+                  <span class="product_title">Samsung</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with
+                    </p>
+                  </a>
+
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+
+                    <span>3.014 reviews</span>
+                  </div>
+
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
                 </div>
-                <div class="next_prev_box" style="transform: scaleX(-1);">
-                    <img src="public/images/icons/next.svg" alt="">
-                    </div>
-             </div>
-         </div>
+              </div> <div class="tv_product_box">
+                <div class="product-img">
+                  <a href="">
+                    <img src="public/images/products/tcl.png" alt="" />
+                  </a>
+                </div>
+                <div class="product_content_box">
+                  <span class="product_title">Samsung</span>
+                  <a href="">
+                    <p class="product_desc">
+                      TCL 3-series 40" 1080p HD LED Android Smart Tv
+                    </p>
+                  </a>
+
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+
+                    <span>3.014 reviews</span>
+                  </div>
+
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div> <div class="tv_product_box">
+                <div class="product-img">
+                  <a href="">
+                    <img src="public/images/products/LG-UHD.png" alt="" />
+                  </a>
+                </div>
+                <div class="product_content_box">
+                  <span class="product_title">Samsung</span>
+                  <a href="">
+                    <p class="product_desc">
+                      LG 65' 4K UHD HDR LED webOS Smart TV
+                    </p>
+                  </a>
+
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+
+                    <span>3.014 reviews</span>
+                  </div>
+
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div> <div class="tv_product_box">
+                <div class="product-img">
+                  <a href="">
+                    <img src="public/images/products/LG-OLED.png" alt="" />
+                  </a>
+                </div>
+                <div class="product_content_box">
+                  <span class="product_title">Samsung</span>
+                  <a href="">
+                    <p class="product_desc">
+                      LG 55' 4K UHD HDR OLED webOS Smart TV
+                    </p>
+                  </a>
+
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+
+                    <span>3.014 reviews</span>
+                  </div>
+
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div> <div class="tv_product_box">
+                <div class="product-img">
+                  <a href="">
+                    <img src="public/images/products/SONY-TV.png" alt="" />
+                  </a>
+                </div>
+                <div class="product_content_box">
+                  <span class="product_title">Samsung</span>
+                  <a href="">
+                    <p class="product_desc">
+                      Sony X85J 65' 4K UHD HDR LED Smart Google Tv 
+                    </p>
+                  </a>
+
+                  <div class="review_box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+
+                    <span>3.014 reviews</span>
+                  </div>
+
+                  <div class="price_box">
+                    <strong>$32.50</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="next_prev_box" style="transform: scaleX(-1)">
+              <img src="public/images/icons/next.svg" alt="" />
+            </div>
+        </div>
+        <div class="pagination_box">
+          <div class="pagination_main">
+            <img src="public/images/icons/arrow-prev_next.svg" alt="" />
+
+            <div class="pagination_dot">
+              <div class="dot">
+                <div></div>
+              </div>
+              <div class="dot">
+                <div></div>
+              </div>
+              <div class="dot">
+                <div></div>
+              </div>
+              <div class="dot">
+                <div></div>
+              </div>
+              <div class="dot active">
+                <div></div>
+              </div>
+              <div class="dot">
+                <div></div>
+              </div>
+            </div>
+
+            <img
+              src="public/images/icons/arrow-prev_next.svg"
+              alt="rasm"
+              style="transform: scaleX(-1)"
+            />
+          </div>
+        </div>
+      </div>
      </div>
-   </div>
-</body>
+  </body>
 </html>
-
-
