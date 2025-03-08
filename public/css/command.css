@@ -1,3 +1,20 @@
+:root {
+     --font: "Jost"; /*--variable: "value"; variablega istalgan nom yozish m-m, valuega font turlaridan biri yoziladi*/
+}
+
+html,
+body {
+margin: 0;
+padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin:0;
+}
 
 .container{
     position: relative;
@@ -75,7 +92,7 @@ height: 30px;
 border:none;
 outline: none;
 
-font-family: 'Jost';
+font-family: var(--font);
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -92,7 +109,7 @@ color: #841e42;
     border:none;
     outline:none;
 
-    font-family: 'Jost';
+    font-family: var(--font);/* font-family: 'Jost'; Jost o'rniga var(); functionni olib, qavs ichiga o'zgartirmoqchi bolgan tepadagi font nomi kiritiladi*/
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -155,7 +172,7 @@ color: #841e42;
 }
 
 .navbar_frame .box_info_box span {
-    font-family: 'Jost';
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -165,7 +182,7 @@ color: #841e42;
 }
 .navbar_frame .box_info_box strong {
 
-font-family: 'Jost';
+font-family: var(--font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -188,7 +205,7 @@ color: #ffffff;
     background: #f5c34b;
     border-radius: 50%;
 
-    font-family:'Jost';
+    font-family: var(--font);
     font-style: normal;
     font-weight: 700;
     font-size: 8px;
@@ -234,7 +251,7 @@ color: #ffffff;
     }
 
     .navbar_frame .browse_box span {
-        font-family: "Jost";
+        font-family: var(--font);
         font-style: normal;
         font-weight: 500px;
         font-size:  16px;
@@ -257,7 +274,7 @@ color: #ffffff;
     display: flex;
 }
 .navbar_frame .route_menu a {
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -275,8 +292,8 @@ color: #ffffff;
 }
 
 .navbar_frame .sorting_menu span 
-{    margin-right: 20px;
-    font-family: "Jost";
+{   margin-right: 20px;
+    font-family: var(--font);
     font-style: normal;
     font-weight:500;
     font-size: 16px;
@@ -299,7 +316,7 @@ color: #ffffff;
 .footer_frame .footer_spec_title {
     display: block;
     margin-bottom: 30px;
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -342,7 +359,7 @@ color: #ffffff;
 }
 
 .footer_frame .footer_contact_main div strong {
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -353,7 +370,7 @@ color: #ffffff;
 
 .footer_frame .footer_contact_main div span {
     margin-top: 10px;
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -369,7 +386,7 @@ color: #ffffff;
 }
 
 .footer_frame .footer_support_box a {
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -412,7 +429,7 @@ color: #ffffff;
 
 .footer_frame .mobile_app_box span {
     margin-left: 20px;
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -456,7 +473,7 @@ color: #ffffff;
 
 .footer_frame .footer_bottom_left span {
     margin-right: 60px;
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -490,7 +507,7 @@ color: #ffffff;
 }
 
 .footer_frame .footer_select_box span {
-    font-family: "Jost";
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -506,13 +523,15 @@ color: #ffffff;
     background: none;
     cursor: pointer;
     border: none;
-
+    font-family: var(--font);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
 
     color: #041e42;
 }
+
+
 
 
 
